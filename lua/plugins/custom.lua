@@ -119,4 +119,10 @@ return {
 		{ "<leader>sb", "<cmd>fzFlua live_grep<cr>", desc = "Search Codebase Text" },
 	},
 },
+
+{
+	"tpope/vim-sleuth",
+},
 }
+
+
