@@ -1,3 +1,19 @@
+### 📸 Visual Showcase
+
+<div align="center">
+  <img src="./assets/main.png" alt="Main Neovim Setup" width="100%" />
+</div>
+
+<details>
+<summary><strong>Click to view more screenshots</strong></summary>
+<br/>
+
+| View 1 | View 2 |
+| :---: | :---: |
+| <img src="./assets/telescope.png" alt="Neovim View 1" width="100%" /> | <img src="./assets/termux.png" alt="Neovim View 2" width="100%" /> |
+
+</details>
+
 # 🚀 Personal Neovim Configuration
 ![Neovim](https://shields.io)
 ![Lua](https://shields.io)
