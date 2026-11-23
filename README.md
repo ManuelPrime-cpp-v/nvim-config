@@ -1,4 +1,7 @@
 # 🚀 Personal Neovim Configuration
+![Neovim](https://shields.io)
+![Lua](https://shields.io)
+![Platform](https://shields.io)
 
 A modern, cross-platform, IDE-grade Neovim configuration built for speed, competitive programming, and software development. Designed to deploy seamlessly across desktop Linux environments (such as CachyOS/Arch) and mobile terminal setups (Termux on Android) using a single universal installation script.
 
