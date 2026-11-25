@@ -61,6 +61,15 @@ pkg update && pkg install -y neovim git clang ripgrep fd curl
 
 ---
 
+### ⚡ Interactive Code Runner
+
+Press **`<F5>`** in Normal mode to automatically save, compile (with `-Wall -Wextra -O2`), and execute your active file inside an interactive bottom terminal split that supports standard input (`scanf`, `std::cin`, `input()`):
+
+| Keybinding | Mode | Supported Languages | Behavior |
+| :--- | :---: | :--- | :--- |
+| **`<F5>`** | Normal | `C` (`gcc`) · `C++` (`g++`) · `Python` (`python3`) | Auto-saves file, compiles to binary, and launches interactive terminal |
+
+
 ## 🛠️ Universal Installation
 
 Follow these steps to deploy this configuration on any new machine or phone:
