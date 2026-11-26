@@ -75,35 +75,9 @@ return {
 
 
 {
-	"lukas-reineke/indent-blankline.nvim",
-	main = "ibl",
-	event = { "BufReadPost", "BufNewFile" },
-	opts = {
-		indent = {
-			char = "|",
-			tab_char ="|",
-		},
-		scope = {
-			enabled = true,
-			show_start = true,
-			show_end = false,
-			char = "|",
-		},
-	},
-	config = function(_,opts)
-	  require("ibl").setup(opts)
-	end,  
-},
-
-{
 	"windwp/nvim-autopairs",
 	event = "InsertEnter",
 	opts = {},
-},
-
-{
-	"HiPhish/rainbow-delimiters.nvim",
-	event = "BuFReadPost"
 },
 
 {
