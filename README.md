@@ -69,6 +69,20 @@ Press **`<F5>`** to **`<F5>`** / **`<Space>r`** in Normal mode to automatically 
 | :--- | :---: | :--- | :--- |
 | **`<F5>`** | Normal | `C` (`gcc`) · `C++` (`g++`) · `Python` (`python3`) | Auto-saves file, compiles to binary, and launches interactive terminal |
 
+### 🎨 Visual & IDE Enhancements
+
+Engineered for maximum visual clarity on OLED displays and high-contrast syntax readability across desktop and mobile:
+
+| Feature | Plugin | Description |
+| :--- | :--- | :--- |
+| **Pure OLED Black & Neon Palette** | `catppuccin/nvim` | Forces `#000000` pitch-black across all UI panes while boosting syntax colors for keywords, types, functions, and operators |
+| **7-Color Rainbow Brackets** | `rainbow-delimiters.nvim` | Color-codes nested `()`, `{}`, and `[]` across seven vivid tiers |
+| **Rainbow Indent Guides** | `indent-blankline.nvim` | Vertical indentation lines matched to the 7-color bracket palette with active scope highlighting |
+| **Top Symbol Breadcrumbs** | `dropbar.nvim` | Interactive navigation bar showing file path and active function/struct scope (`<Space>;` to jump) |
+| **Inline Color Swatches** | `nvim-colorizer.lua` | Renders live background color previews directly on `#Hex` and `rgb()` codes |
+| **Smooth IDE Scrolling** | `neoscroll.nvim` | Fluid quadratic scroll animations for `<C-u>`, `<C-d>`, `<C-b>`, and `<C-f>` |
+| **Coding Telemetry** | `vim-wakatime` | Automatic time and language tracking synced to GitHub profile metrics |
+
 
 ## 🛠️ Universal Installation
 
