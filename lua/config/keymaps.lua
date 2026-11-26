@@ -1,7 +1,8 @@
 -- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- Default keymaps that are always set: https://github.com
 -- Add any additional keymaps here
--- Press <F5> in Normal mode to save, compile, and run C, C++, or Python interactively
+
+-- Press <F5> in Normal mode to save, compile (with -g debug symbols), and run C, C++, or Python interactively
 vim.keymap.set("n", "<F5>", function()
   vim.cmd("w") -- Auto-save current file
   local file = vim.fn.expand("%:p")
@@ -10,9 +11,9 @@ vim.keymap.set("n", "<F5>", function()
 
   local cmd = ""
   if ext == "c" then
-    cmd = string.format("gcc -std=c17 -O2 -Wall -Wextra '%s' -o '%s' && '%s'", file, out, out)
+    cmd = string.format("gcc -std=c17 -O2 -g -Wall -Wextra '%s' -o '%s' && '%s'", file, out, out)
   elseif ext == "cpp" then
-    cmd = string.format("g++ -std=c++20 -O2 -Wall -Wextra '%s' -o '%s' && '%s'", file, out, out)
+    cmd = string.format("g++ -std=c++20 -O2 -g -Wall -Wextra '%s' -o '%s' && '%s'", file, out, out)
   elseif ext == "py" then
     cmd = string.format("python3 '%s'", file)
   else
