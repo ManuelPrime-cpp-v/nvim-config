@@ -69,6 +69,10 @@ Press **`<F5>`** to **`<F5>`** / **`<Space>r`** in Normal mode to automatically 
 | :--- | :---: | :--- | :--- |
 | **`<F5>`** | Normal | `C` (`gcc`) · `C++` (`g++`) · `Python` (`python3`) | Auto-saves file, compiles to binary, and launches interactive terminal |
 
+| **`<Space>a`** | Normal | `C` (`gcc`) · `C++` (`g++`) | Compiles with `-O2 -S -masm=intel` and opens clean x86_64 assembly side-by-side |
+| **`<Space>db` / `<Space>dc`** | Normal | `C` · `C++` · `Python` | Toggles breakpoints and launches interactive `nvim-dap` memory/register debugger |
+
+
 ### 🎨 Visual & IDE Enhancements
 
 Engineered for maximum visual clarity on OLED displays and high-contrast syntax readability across desktop and mobile:
