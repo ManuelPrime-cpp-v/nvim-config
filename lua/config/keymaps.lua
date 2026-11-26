@@ -58,3 +58,8 @@ vim.keymap.set("n", "<leader>a", function()
   vim.bo.filetype = "asm"
   vim.bo.readonly = true
 end, { desc = "Inspect -O2 Assembly Side-by-Side" })
+-- 3. Press <Space> + p in Normal mode to open an interactive Python REPL split
+vim.keymap.set("n", "<leader>p", function()
+  vim.cmd("botright 12split | terminal python3")
+  vim.cmd("startinsert")
+end, { desc = "Open Interactive Python REPL" })
