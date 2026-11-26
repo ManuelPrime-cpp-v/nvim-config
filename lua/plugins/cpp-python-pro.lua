@@ -30,28 +30,13 @@ return {
           settings = {
             basedpyright = {
               analysis = {
-                typeCheckingMode = "standard", -- Catches real bugs without noisy strict-mode spam
+                typeCheckingMode = "standard",
                 autoImportCompletions = true,
               },
             },
           },
         },
         ruff = {},
-      },
-    },
-  },
-
-  -- 3. Ensure Mason automatically installs all C, C++, and Python tools
-  {
-    "mason-org/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "clangd",
-        "clang-format",
-        "codelldb",
-        "basedpyright",
-        "ruff",
-        "debugpy",
       },
     },
   },
