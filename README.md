@@ -160,35 +160,15 @@ Because `install.sh` uses a symlink, keeping your desktop and phone synchronized
 
 ### Credits & Acknowledgments
 
-<div align="center">
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="LazyVim" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="Catppuccin" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="rainbow-delimiters" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="indent-blankline" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="dropbar.nvim" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="nvim-colorizer" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="neoscroll.nvim" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="venv-selector" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="leetcode.nvim" />
-  </a>
-  <a href="https://github.com">
-    <img src="https://shields.io" alt="vim-wakatime" />
-  </a>
-</div>
+* **[@folke](https://github.com)** — LazyVim
+* **[@catppuccin](https://github.com)** — Catppuccin Theme
+* **[@HiPhish](https://github.com)** — rainbow-delimiters.nvim
+* **[@lukas-reineke](https://github.com)** — indent-blankline.nvim
+* **[@Bekaboo](https://github.com)** — dropbar.nvim
+* **[@NvChad](https://github.com)** — nvim-colorizer.lua
+* **[@karb94](https://github.com)** — neoscroll.nvim
+* **[@linux-cultist](https://github.com)** — venv-selector.nvim
+* **[@kawre](https://github.com)** — leetcode.nvim
+* **[@wakatime](https://github.com)** — vim-wakatime
+
+**If I have missed any mentions please raise the issue**
