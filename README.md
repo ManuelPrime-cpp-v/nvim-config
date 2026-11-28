@@ -155,3 +155,40 @@ Because `install.sh` uses a symlink, keeping your desktop and phone synchronized
 * **Plugins fail to build on first launch:** Open Neovim, run `:Lazy`, highlight the failed plugin, and press `gb` (Build) or `U` (Update).
 * **Broken icons or missing symbols:** Make sure your terminal emulator (or Termux styling app) is using a patched **Nerd Font** (e.g., *JetBrainsMono Nerd Font* or *FiraCode Nerd Font*).
 * **Check overall setup status:** Run `:checkhealth` inside Neovim for detailed diagnostics.
+
+---
+
+### Credits & Acknowledgments
+
+<div align="center">
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="LazyVim" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="Catppuccin" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="rainbow-delimiters" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="indent-blankline" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="dropbar.nvim" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="nvim-colorizer" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="neoscroll.nvim" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="venv-selector" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="leetcode.nvim" />
+  </a>
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="vim-wakatime" />
+  </a>
+</div>
