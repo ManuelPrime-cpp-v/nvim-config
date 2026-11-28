@@ -158,7 +158,10 @@ Because `install.sh` uses a symlink, keeping your desktop and phone synchronized
 
 ---
 
-### Credits & Acknowledgments
+python3 -c '
+p = "README.md"
+txt = open(p).read().split("### Credits & Acknowledgments")[0]
+credits = """### Credits & Acknowledgments
 
 * **[@folke](https://github.com)** — LazyVim
 * **[@catppuccin](https://github.com)** — Catppuccin Theme
@@ -170,6 +173,10 @@ Because `install.sh` uses a symlink, keeping your desktop and phone synchronized
 * **[@linux-cultist](https://github.com)** — venv-selector.nvim
 * **[@kawre](https://github.com)** — leetcode.nvim
 * **[@wakatime](https://github.com)** — vim-wakatime
+"""
+open(p, "w").write(txt + credits)
+' && git add README.md && git commit -m "Fix clickable repository links in credits" && git push
+
 
 
 **If I have missed any mentions please raise the issue**
