@@ -171,4 +171,5 @@ Because `install.sh` uses a symlink, keeping your desktop and phone synchronized
 * **[@kawre](https://github.com)** — leetcode.nvim
 * **[@wakatime](https://github.com)** — vim-wakatime
 
+
 **If I have missed any mentions please raise the issue**
